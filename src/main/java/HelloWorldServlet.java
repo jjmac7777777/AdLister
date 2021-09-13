@@ -12,7 +12,7 @@ public class HelloWorldServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
 
-        out.println("Hello World!");
+        out.println("<h1>Hello World!</h1>");
         out.close();
     }
 }
