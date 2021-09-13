@@ -6,17 +6,16 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 
 
 <html>
 <head>
     <title>Login</title>
-    <jsp:include page="partials/head.jsp" />
+
 </head>
 <body>
 <%@include file="partials/navbar.jsp"%>
-<%@include file="partials/scripts.jsp"%>
 
 <p> "username" parameter: <%=request.getParameter("UserName")%></p>
 <p> "password" parameter: <%=request.getParameter("password")%></p>

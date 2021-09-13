@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>Profile</title>
-    <jsp:include page="partials/head.jsp" />
+
 </head>
 <body>
 
