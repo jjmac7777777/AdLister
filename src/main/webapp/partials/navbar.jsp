@@ -7,20 +7,12 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-
-<nav>
-    This is My Navbar!!!
-</nav>
-
 <nav class="navbar navbar-light bg-light">
     <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1">NAVBAR</span>
+        <span class="navbar-brand mb-0 h1">Navbar</span>
     </div>
 </nav>
 
-
-
-</nav>
 
 <html>
 <head>

@@ -16,14 +16,15 @@
 </head>
 <body>
 <%@include file="partials/navbar.jsp"%>
+<%@include file="partials/head.jsp"%>
 
-<p> "username" parameter: <%=request.getParameter("UserName")%></p>
-<p> "password" parameter: <%=request.getParameter("password")%></p>
+<%--<p> "username" parameter: <%=request.getParameter("UserName")%></p>--%>
+<%--<p> "password" parameter: <%=request.getParameter("password")%></p>--%>
 
 <%
-    String username = request.getParameter("UserName");
-    String password = request.getParameter("password");
-    String requestMethodType = request.getMethod();
+//    String username = request.getParameter("UserName");
+//    String password = request.getParameter("password");
+//    String requestMethodType = request.getMethod();
 
     if(request.getMethod().equalsIgnoreCase("POST")) {
         if (request.getParameter("UserName").equals("admin"));
@@ -45,8 +46,8 @@
 
     <input type="submit">
 
-    <p>"UserName: ${UserName}</p>
-    <p>"password: ${password}</p>
+<%--    <p>"UserName: ${UserName}</p>--%>
+<%--    <p>"password: ${password}</p>--%>
 </form>
 
 
